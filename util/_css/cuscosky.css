@@ -1,0 +1,121 @@
+*{
+margin: 0 auto;	
+}
+
+.areaNotificacaoFormLogin{
+	position: absolute;
+	width: 33%;
+	height: 6%;
+	top: 20%;
+	left: 32%;
+	border: none;
+
+}
+.formLogin{
+	position: absolute;
+	width: 33%;
+	height: 28%;
+	top:30%;
+	left:33%;
+	border: none;
+
+}
+.fundoPaginaLogin{
+	 background-color:#FFF 	
+}
+
+.logo-login{
+	
+	width: 693px;
+	position: relative;
+	margin:0,auto;
+	padding: 0;
+	top:-2%;
+	/*border: 1px solid red;*/
+}
+
+.botoes-idiomas{
+	position: absolute;
+	width: 15%;
+	top: 0%;
+	left: 85%;
+	/*border-left: 1px solid #D4E0EE;*/
+	/*border-collapse: collapse;*/
+	/*border: 1px solid red;*/
+}
+
+.nomeEmpresa{
+ position: absolute;
+ width:30%;
+ text-align: center;
+ top:96%;
+ left: 35%;
+ color: #555;
+ font-family: "Trebuchet MS", Arial, sans-serif;
+ text-decoration: underline;
+ font-weight:bolder;
+}
+
+.tabela_responsiva{
+position:absolute;
+width:100%;
+height:100%;
+background-color:red;
+z-index:800;
+}
+
+table, th, td {
+	position:relative;
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}
+/* Barra de progresso de upload de arquvio */
+.progress { position:static; width:450px; top:-25.9% ;border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { alignment-adjust:central; background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; display:inline-block; top:3px; left:48%; }

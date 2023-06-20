@@ -1,0 +1,184 @@
+*{
+	margin:0;
+}
+
+.barra-superior{
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	color: #555;
+	background-color:#FFF;
+	z-index:4000;
+	
+	
+}
+
+.menu-superior{
+	position:absolute;
+	width:35%;
+	height:100%;
+	background-color:#FFF;
+	top: 0%;
+	left: 65%;
+	border-left: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-size: 1.1em;
+	font-family: "Trebuchet MS", Arial;
+	font-weight: bold;
+}
+.menu-superior p{
+ position:relative;
+ top:66%;
+
+}
+.titulo{
+	position: relative;
+	text-align: center;
+	font-size: 1.3em;
+	top: 25%;
+	font-family: "Trebuchet MS", Arial;
+	font-weight: bold;
+	
+	
+}
+
+
+.titulo-barra-superior-direita{
+	position: absolute;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: "Trebuchet MS", Arial;
+	font-weight: bold;
+	
+	
+}
+
+.botoes-barra-superior-direita{
+	position: absolute;
+	width: 30%;
+	height:100%;
+	top: 0%;
+	left: 65%;
+	border-left: 1px solid #D4E0EE;
+	border-collapse: collapse;
+
+}
+
+.botoes-pagincao{
+	position:relative;
+	width:20%;
+	height:8%;
+	background-color:#FFF;
+	top:-1%;
+    left:-1%;
+	border-bottom: 3px solid #D4E0EE;
+	border-collapse: collapse;	
+}
+
+
+
+
+/*@media (max-height:700px){*/
+.botaoHome{
+    position: relative;
+	width: 25%;
+	left:0%;
+	top: 45%;
+	
+	/*float: center;*/
+
+
+}
+
+.botaoConfig{
+    position: relative;
+	width: 25%;
+	left:0%;
+	top: 38%;
+}
+
+.botaoEditorTexto{
+    position: relative;
+	width: 25%;
+	left:0%;
+	top: 41%;
+}
+
+.botaoSair{
+ position: relative;
+	width: 25%;
+	left:86%;
+	top: -30%;
+
+}
+
+/* }*/
+
+.menu{
+	position: fixed;
+	width: 17%;
+	height: 91.6%;
+	top: 8.1%;
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	color: #555;
+	overflow:auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+li a {
+    display: block;
+    color: #718ABE;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 1px solid #D4E0EE;
+    margin-top: -1px;
+    margin-right: -1px;
+    font-family: "Trebuchet MS", Arial;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+li a:hover {
+	transition: .4s;
+    background-color: #F2F2F2;
+}
+
+.area{
+	position: absolute;
+	width: 78%;
+	height: 84%;
+	top: 12%;
+	left: 20%;
+	z-index:500;
+	
+}
+.areaNotificacao{
+	position: absolute;
+	width: 83%;
+	height: 6%;
+	top: 8%;
+	left: 17%;
+	background-color:FFF;
+	border: none;
+	
+}
+.imagensMenu{
+/*background: red;*/
+width: 22%;
+height: 32%;
+position: left: all;
+
+}
